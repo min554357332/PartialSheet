@@ -11,6 +11,7 @@ import Combine
 
 /// This is the modifier for the Partial Sheet
 public struct PartialSheet: ViewModifier {
+    public init() {}
     
     // MARK: - Private Properties
     

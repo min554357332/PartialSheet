@@ -89,3 +89,11 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+extension View {
+    func newAttachPartialSheetToRoot(_ manager: PSManager) -> some View {
+        return self
+            .modifier(PartialSheet())
+            .environmentObject(manager)
+    }
+}
