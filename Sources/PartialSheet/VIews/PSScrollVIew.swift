@@ -40,6 +40,8 @@ struct PSScrollVIew<Content: View>: View {
             }.frame(width: 0, height: 0)
             content
         }
+//        .scrollDisabled(true)
+        .disabled(true)
         .coordinateSpace(name: "scrollView")
         .onPreferenceChange(ScrollOffsetPreferenceKey.self, perform: offsetChanged)
     }
