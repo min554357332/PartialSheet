@@ -10,7 +10,7 @@ import SwiftUI
 import Combine
 
 /// This is the modifier for the Partial Sheet
-struct PartialSheet: ViewModifier {
+public struct PartialSheet: ViewModifier {
     
     // MARK: - Private Properties
     
