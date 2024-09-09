@@ -91,7 +91,7 @@ public struct PartialSheet: ViewModifier {
     
     // MARK: - Content Builders
     
-    func body(content: Content) -> some View {
+    public func body(content: Content) -> some View {
         ZStack {
             content
             // if the device type is an iPhone
